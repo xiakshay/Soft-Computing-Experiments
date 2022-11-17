@@ -1,0 +1,33 @@
+switch code
+
+#enable
+#config terminal
+#vlan 10
+#name alpha
+#vlan 20
+#name beta
+#int fa0/1
+#switchport mode access
+#switchport access vlan 10
+#int fa0/2
+#switchport mode access
+#switchport access vlan 20
+
+no need if not intervaln given 
+routercode
+
+first step type no
+
+en
+#config t
+#int fa0/0
+#no shutdown
+#int fa0/0
+#encapsulation dot1q 10
+#ip add 192.168.1.1 255.255.255.0
+
+
+
+
+
+
